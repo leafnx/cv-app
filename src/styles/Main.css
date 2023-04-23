@@ -1,0 +1,131 @@
+/* Info block */
+.info {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.photo-placeholder {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed rgba(0, 0, 0, 0.8);
+  border-radius: 28px;
+  text-align: center;
+  line-height: 195px;
+  user-select: none;
+  opacity: 0.7;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.info-text > a {
+  margin: 0 5px;
+}
+.info-text > a:first-of-type {
+  margin-left: 0;
+}
+.info-text > a:last-of-type {
+  margin-right: 0;
+}
+
+
+/* Cards */
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+
+/* Table */
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+
+/* Links list */
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding: 0 0 5px 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+/* Contact form */
+.contact-form h2 {
+ text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

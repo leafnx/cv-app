@@ -1,0 +1,45 @@
+/* Body */
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#root {
+ max-width: 750px;
+ margin: 30px auto 100px;
+}
+
+
+/* Links */
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: grey;
+}
+
+
+/* Backgrounds */
+.bg-blue {
+  background: #add8e6;
+}
+ 
+.bg-yellow {
+  background: #ffffe0;
+}
+
+.bg-red {
+  background: #ffdcdc;
+}
