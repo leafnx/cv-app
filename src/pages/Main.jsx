@@ -87,10 +87,16 @@ function Tutorials() {
 }
 
 function ContactForm() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    console.log('123')
+  }
+
   return(
     <div className='contact-form'>
       <h2>Связаться со мной</h2>
-      <form action='/'>
+      <form onSubmit={handleSubmit}>
         <div className='row'>
           <div className='form-group'>
             <label>Ваше имя:</label>
